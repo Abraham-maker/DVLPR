@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  .overlay_sides {
+    left: 3.125rem;
+    margin: 3.125rem 0;
+  }
+  .overlay_sides.overlay_sides_right {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 3.125rem;
+  }
+  .overlay_sides.overlay_sides_left {
+    left: 3.125rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_light {
+    padding: 8px 32px;
+  }
+}

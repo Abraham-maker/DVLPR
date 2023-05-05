@@ -1,0 +1,77 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f0f8ff;
+  background: #141416;
+  overflow: hidden;
+}
+
+.App {
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  top: 5px;
+}
+
+.logo svg {
+  max-width: 40px;
+  position: relative;
+  top: 1px;
+  margin-right: 2px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  line-height: 1;
+  margin: 0;
+  color: #f0f8ff;
+  display: inline;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.overlay_sides {
+  margin: 1rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.overlay_sides.overlay_sides_left {
+  left: 15px;
+}
+
+.overlay_sides.overlay_sides_right {
+  right: 15px;
+}
+
+.btn_light {
+  background: #f0f8ff;
+  background-color: rgb(240, 248, 255);
+  padding: 8px 22px;
+  display: block;
+  border: 2px solid #f0f8ff;
+  background-color: transparent;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 17px;
+  color: #f0f8ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
